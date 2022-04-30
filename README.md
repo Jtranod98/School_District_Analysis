@@ -67,17 +67,17 @@ Four metrics change in the updated school district analysis after reading and ma
    - New Passing reading %, using new student count
    - New Overall passing percentate, using new student count
        
-Based on the above changes, answers to the following questions:
+Based on the above changes, the answers to the following questions:
 - How is the district summary affected? 
     - Image before NaN change
     
-    ![District_sum_b4.png](PyCitySchools_pics_b4/District_sum_b4.png)  
+    ![District_Sum_b4.png](PyCitySchool_pics_b4/District_Sum_b4.png)  
 
     - Image after NaN change
   
      ![District_Summary.png](PyCitySchools_pics/District_Summary.png)
      
-    - The scores changes were minimal                
+    - The scores changes were minimal, mostly decreased.               
        - Avg math score was decreased by .1 from 79.0 to 78.9
        - Avg reading score 81.9 remained the same
        - % Passisng Math was decreased by .2% from 75.0 to 74.8
@@ -87,29 +87,29 @@ Based on the above changes, answers to the following questions:
 - How is the school summary affected?   
    - Image before NaN change
    
-     ![School_sum_b4.png](PyCitySchools_pics_b4/School_sum_b4.png) 
+     ![School_sum_b4.png](PyCitySchool_pics_b4/School_sum_b4.png) 
 
    - Image after NaN change
      ![School_Summary_10_12G.png](PyCitySchools_pics/School_Summary_10_12G.png)
      
-   - The performance was lower.    
+   - Only Thomas High School performance had changed, mostly decreased.    
      - Avg math score was decreased by .06 from 83.41 to 83.35
      - Avg reading score was increased .05 by 83.84 to 83.89
      - % Passisng Math was decreased by .09% from 93.27 to 93.18
-     - % Passing Readidng was decreased by .29% from 97.30 to 97.01
+     - % Passing Reading was decreased by .29% from 97.30 to 97.01
      - % Overall Passing was decreased by .31% from 90.94 to 90.63
     
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
      - Image before NaN change
      
-    ![School_sum_b4.png](PyCitySchools_pics_b4/School_sum_b4.png) 
+    ![School_sum_b4.png](PyCitySchool_pics_b4/School_sum_b4.png) 
 
      - Image after NaN change
 
      ![School_Summary.png](PyCitySchools_pics/School_Summary.png)
      
-     - The scores were lower
+     - The percentage score were significantly lower due to change in the total student number.
        - average Math score decreased slightly .06 from 83.41 to 83.35
        - average reading score increased slightly by .05 from 83.84 to 83.89
        - % Passing Math decreased significantly 26.36% from 93.27 to 66.91
@@ -122,7 +122,7 @@ Based on the above changes, answers to the following questions:
 
       - Image before NaN change
       
-       ![Math_scores_grade_b4.png](PyCitySchools_pics_b4/Math_scores_grade_b4.png) 
+       ![Math_scores_grade_b4.png](PyCitySchool_pics_b4/Math_scores_grade_b4.png) 
 
       - Image after NaN change
     
@@ -131,7 +131,7 @@ Based on the above changes, answers to the following questions:
     - Reading scores by grade: there was no change     
 
       - Image before NaN change
-      ![Reading_scores_grade_b4.png](PyCitySchools_pics_b4/Reading_scores_grade_b4.png) 
+      ![Reading_scores_grade_b4.png](PyCitySchool_pics_b4/Reading_scores_grade_b4.png) 
 
       - Image after NaN change
        
@@ -141,7 +141,7 @@ Based on the above changes, answers to the following questions:
 
       - Image before NaN change
       
-       ![Spending_sum_b4.png](PyCitySchools_pics/Spending_sum_b4.png)
+       ![spending_sum_b4.png](PyCitySchool_pics_b4/spending_sum_b4.png)
 
       - Image after NaN change
    
@@ -151,7 +151,7 @@ Based on the above changes, answers to the following questions:
     
       - Image before NaN change
 
-       ![Size_sum_b4.png](PyCitySchools_pics/Size_sum_b4.png)
+       ![Size_sum_b4.png](PyCitySchool_pics_b4/Size_sum_b4.png)
      
       - Image after NaN change
   
@@ -161,7 +161,7 @@ Based on the above changes, answers to the following questions:
 
       - Image before NaN change
 
-       ![Type_sum_b4.png](PyCitySchools_pics/Type_sum_b4.png)
+       ![Type_Sum_b4.png](PyCitySchool_pics_b4/Type_Sum_b4.png)
    
       - Image after NaN change
     
