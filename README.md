@@ -70,7 +70,8 @@ Four metrics change in the updated school district analysis after reading and ma
 Based on the above changes, answers to the following questions:
 - How is the district summary affected? 
     - Image before NaN change
-
+    
+    ![District_sum_b4.png](PyCitySchools_pics_b4/District_sum_b4.png)  
 
     - Image after NaN change
   
@@ -85,7 +86,8 @@ Based on the above changes, answers to the following questions:
         
 - How is the school summary affected?   
    - Image before NaN change
-
+   
+     ![School_sum_b4.png](PyCitySchools_pics_b4/School_sum_b4.png) 
 
    - Image after NaN change
      ![School_Summary_10_12G.png](PyCitySchools_pics/School_Summary_10_12G.png)
@@ -100,7 +102,8 @@ Based on the above changes, answers to the following questions:
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
      - Image before NaN change
-
+     
+    ![School_sum_b4.png](PyCitySchools_pics_b4/School_sum_b4.png) 
 
      - Image after NaN change
 
@@ -118,7 +121,8 @@ Based on the above changes, answers to the following questions:
     - Math scores by grade: there was no change
 
       - Image before NaN change
-
+      
+       ![Math_scores_grade_b4.png](PyCitySchools_pics_b4/Math_scores_grade_b4.png) 
 
       - Image after NaN change
     
@@ -127,7 +131,7 @@ Based on the above changes, answers to the following questions:
     - Reading scores by grade: there was no change     
 
       - Image before NaN change
-
+      ![Reading_scores_grade_b4.png](PyCitySchools_pics_b4/Reading_scores_grade_b4.png) 
 
       - Image after NaN change
        
@@ -136,7 +140,8 @@ Based on the above changes, answers to the following questions:
     - Scores by school spending: there was no change
 
       - Image before NaN change
-
+      
+       ![Spending_sum_b4.png](PyCitySchools_pics/Spending_sum_b4.png)
 
       - Image after NaN change
    
@@ -146,7 +151,8 @@ Based on the above changes, answers to the following questions:
     
       - Image before NaN change
 
-
+       ![Size_sum_b4.png](PyCitySchools_pics/Size_sum_b4.png)
+     
       - Image after NaN change
   
        ![Size_Summary.png](PyCitySchools_pics/Size_Summary.png)
@@ -155,7 +161,8 @@ Based on the above changes, answers to the following questions:
 
       - Image before NaN change
 
-
+       ![Type_sum_b4.png](PyCitySchools_pics/Type_sum_b4.png)
+   
       - Image after NaN change
     
        ![Type_Summary.png](PyCitySchools_pics/Type_Summary.png) 
