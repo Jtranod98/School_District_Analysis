@@ -3,7 +3,10 @@ Python,Jupyter Notebook
 
 ## Project Overview
 
-A school district employee is requesting the following analysis of the school district data. This information will help the school board make decisions about the budget for the upcoming school year. The analysis will represent in a table format.
+
+A School board is making a decisions about the budget for the upcoming school year. Such as,
+
+A school district employee is requesting the following analysis of the school district data. The analysis will be represented in a table format.
  
 1. The school district summary, a snapshot of the district's key metrics: 
     - Total number of schools
@@ -62,13 +65,13 @@ There were four changes in the updated school district analysis after reading an
     - New Passing reading %, using new student count
     - New Overall passing percentate, using new student count
     
-   ![Student data w NaN.png](PyCitySchools pics/Student data w NaN.png)  
+   ![Student_data_NaN.png](PyCitySchool_pics)/Student_data_NaN.png)  
    
 Based on the above changes, below are 
 - How is the district summary affected? 
   
  
-     ![District Summary.png](PyCitySchools pics/District Summary.png)
+     ![District_Summary.png](PyCitySchools_pics/District_Summary.png)
      
      The affect was mininimal               
     - Avg math score lower from 79.0 to 78.9
@@ -79,11 +82,11 @@ Based on the above changes, below are
         
 - How is the school summary affected?  There were no change.    
 
-     ![School Summary w 10-12G.png](PyCitySchools pics/School Summary w 10-12G.png)
+     ![School_Summary_10_12G.png](PyCitySchools_pics/School_Summary_10_12G.png)
 
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
-     ![School Summary.png](PyCitySchools pics/School Summary.png)
+     ![School_Summary.png](PyCitySchools_pics/School_Summary.png)
  
     - % Passing Math significantly lower from 93.2 to 66.9
     - % Passing Reading significantly lower from , 97.3 to 69.6
@@ -96,19 +99,19 @@ Based on the above changes, below are
 
     - Math and reading scores by grade: none  
     
-       ![Avg Math Scores by grade.png](PyCitySchools pics/Avg Math Scores by grade.png)
+       ![Avg_Math_Scores_grade.png](PyCitySchools_pics/Avg_Math_Scores_grade.png)
        
-       ![Avg Readidng Scores by grade.png](PyCitySchools pics/Avg Reading Scores by grade.png)
+       ![Avg_Readidng Scores_grade.png](PyCitySchools_pics/Avg_Readidng Scores_grade.png)
        
     - Scores by school spending: none
-       ![Spending Summary.png](PyCitySchools pics/Spending Summary.png)
+       ![Spending Summary.png](PyCitySchools_pics/Spending_Summary.png)
     
     - Scores by school size: none
   
-       ![Size Summary.png](PyCitySchools pics/Size Summary.png)
+       ![Size_Summary.png](PyCitySchools_pics/Size_Summary.png)
     - Scores by school type: none    
     
-       ![Type Summary.png](PyCitySchools pics/Type Summary.png) 
+       ![Type_Summary.png](PyCitySchools_pics/Type_Summary.png) 
     
 ## Summary
 
