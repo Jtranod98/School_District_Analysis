@@ -1,13 +1,10 @@
 # School_District_Analysis
-Python,Jupyter Notebook
+Python, Jupyter Notebook, Pandas Library, CSV Files
 
 ## Project Overview
 
+A school district employee is requesting the following analysis of the school district data. The school board want to use the information to make a decision about the budget for the upcoming school year.  Such as, how much money should be allocated to and spent on each school. The analysis will be represented in a table format.
 
-A School board is making a decisions about the budget for the upcoming school year. Such as,
-
-A school district employee is requesting the following analysis of the school district data. The analysis will be represented in a table format.
- 
 1. The school district summary, a snapshot of the district's key metrics: 
     - Total number of schools
     - Total number of students 
@@ -18,7 +15,7 @@ A school district employee is requesting the following analysis of the school di
     - Percentage of students passing math
     - Overall passing percentage
     
-2. Per school summary, a tables presenting each of the following metrics:
+2. Per school summary.
     - Type of school
     - Total students per school
     - Total budget per school
@@ -35,7 +32,7 @@ A school district employee is requesting the following analysis of the school di
     - The average math score received by students in each grade level at each school
     - The average reading score received by students in each grade level at each school
  
-5. School performance based on the budget per student. This data organized by spending ranges for the schools. This information look at how does school spending per student affect the school's average scores and passing percentages?   
+5. School performance based on the budget per student. This data organized by spending ranges for the schools. This information is used to look at how does school spending per student affect the school's average scores and passing percentages?   
 
     - Average Math Score
     - Average Reading Score
@@ -59,68 +56,120 @@ The students_complete.csv file shows evidence of academic dishonesty; specifical
 
 ## Results
 
-There were four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs: 
-    - New total student count (less 9th graders at Thomas High School)
-    - New Passing math %, using new student count
-    - New Passing reading %, using new student count
-    - New Overall passing percentate, using new student count
-    
-   ![Student_data_NaN.png](PyCitySchool_pics)/Student_data_NaN.png)  
-   
-Based on the above changes, below are 
+The new student data records after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+
+![Student_data_NaN.png](PyCitySchools_pics/Student_data_NaN.png)
+
+Four metrics change in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+
+   - New total student count (less 9th graders at Thomas High School)
+   - New Passing math %, using new student count
+   - New Passing reading %, using new student count
+   - New Overall passing percentate, using new student count
+       
+Based on the above changes, answers to the following questions:
 - How is the district summary affected? 
+    - Image before NaN change
+
+
+    - Image after NaN change
   
- 
      ![District_Summary.png](PyCitySchools_pics/District_Summary.png)
      
-     The affect was mininimal               
-    - Avg math score lower from 79.0 to 78.9
-    - Avg reading score 81.9 same
-    - % Passisng Math lower from 75.0 to 74.8
-    - % Passing Readidng lower from 85.8 to 85.7
-    - % Overall Passing lower from 65.2 to 64.9
+    - The scores changes were minimal                
+       - Avg math score was decreased by .1 from 79.0 to 78.9
+       - Avg reading score 81.9 remained the same
+       - % Passisng Math was decreased by .2% from 75.0 to 74.8
+       - % Passing Readidng was decreased by .1% from 85.8 to 85.7
+       - % Overall Passing was decreased by .3% from 65.2 to 64.9
         
-- How is the school summary affected?  There were no change.    
+- How is the school summary affected?   
+   - Image before NaN change
 
+
+   - Image after NaN change
      ![School_Summary_10_12G.png](PyCitySchools_pics/School_Summary_10_12G.png)
-
+     
+   - The performance was lower.    
+     - Avg math score was decreased by .06 from 83.41 to 83.35
+     - Avg reading score was increased .05 by 83.84 to 83.89
+     - % Passisng Math was decreased by .09% from 93.27 to 93.18
+     - % Passing Readidng was decreased by .29% from 97.30 to 97.01
+     - % Overall Passing was decreased by .31% from 90.94 to 90.63
+    
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
+     - Image before NaN change
+
+
+     - Image after NaN change
+
      ![School_Summary.png](PyCitySchools_pics/School_Summary.png)
- 
-    - % Passing Math significantly lower from 93.2 to 66.9
-    - % Passing Reading significantly lower from , 97.3 to 69.6
-    - % Overall Passing significantly decreased from 90.9 to 65.0
-    - average Math score increased slightly from 83.41 to 83.35
-    - average reading score increased slightly from 83.84 to 83.89
+     
+     - The scores were lower
+       - average Math score decreased slightly .06 from 83.41 to 83.35
+       - average reading score increased slightly by .05 from 83.84 to 83.89
+       - % Passing Math decreased significantly 26.36% from 93.27 to 66.91
+       - % Passing Reading decreased significantly by 27.64% from 97.30 to 69.66
+       - % Overall Passing decreased significantly by 25.87% from 90.94 to 65.07
         
-- How does replacing the ninth-grade scores affect the following:  None were affected
+- How does replacing the ninth-grade scores affect the following:  
+
+    - Math scores by grade: there was no change
+
+      - Image before NaN change
 
 
-    - Math and reading scores by grade: none  
+      - Image after NaN change
     
        ![Avg_Math_Scores_grade.png](PyCitySchools_pics/Avg_Math_Scores_grade.png)
        
-       ![Avg_Readidng Scores_grade.png](PyCitySchools_pics/Avg_Readidng Scores_grade.png)
+    - Reading scores by grade: there was no change     
+
+      - Image before NaN change
+
+
+      - Image after NaN change
        
-    - Scores by school spending: none
+       ![Avg_Reading_scores_grade.png](PyCitySchools_pics/Avg_Reading_scores_grade.png)
+       
+    - Scores by school spending: there was no change
+
+      - Image before NaN change
+
+
+      - Image after NaN change
+   
        ![Spending Summary.png](PyCitySchools_pics/Spending_Summary.png)
     
-    - Scores by school size: none
+    - Scores by school size: there was no change
+    
+      - Image before NaN change
+
+
+      - Image after NaN change
   
        ![Size_Summary.png](PyCitySchools_pics/Size_Summary.png)
-    - Scores by school type: none    
+       
+    - Scores by school type: there was no change
+
+      - Image before NaN change
+
+
+      - Image after NaN change
     
        ![Type_Summary.png](PyCitySchools_pics/Type_Summary.png) 
     
 ## Summary
 
 Four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs:
-    - New total student count (less 9th graders at Thomas High School)
-    - New Passing math %, using new student count
-    - New Passing reading %, using new student count
-    - New Overall passing percentate, using new student count
+
+   - Avg math score was lowered by .1 
+   - Avg reading score 81.9 remained the same
+   - % Passisng Math was lowered by.2% 
+   - % Passing Readidng was lowered by .1% 
+   - % Overall Passing was lowered by .3% 
 
 ## Final Statement
 
-- Since the number of students affected was so small compare to the whole student population. Therefore, it has minimal to no affect to the original analysis.
+The number of students affected at Thomas High School was very small compare to the whole district student population. Therefore, it has minimal to no affect to the school district analysis.
