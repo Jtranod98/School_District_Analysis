@@ -77,7 +77,7 @@ Based on the above changes, the answers to the following questions:
   
      ![District_Summary.png](PyCitySchools_pics/District_Summary.png)
      
-    - The scores changes were minimal, mostly decreased.               
+    - The scores changes were minimal, mostly lower.               
        - Avg math score was decreased by .1 from 79.0 to 78.9
        - Avg reading score 81.9 remained the same
        - % Passisng Math was decreased by .2% from 75.0 to 74.8
@@ -92,7 +92,7 @@ Based on the above changes, the answers to the following questions:
    - Image after NaN change
      ![School_Summary_10_12G.png](PyCitySchools_pics/School_Summary_10_12G.png)
      
-   - Only Thomas High School performance had changed, mostly decreased.    
+   - Only Thomas High School performance had changed, mostly lower.    
      - Avg math score was decreased by .06 from 83.41 to 83.35
      - Avg reading score was increased .05 by 83.84 to 83.89
      - % Passisng Math was decreased by .09% from 93.27 to 93.18
@@ -109,7 +109,7 @@ Based on the above changes, the answers to the following questions:
 
      ![School_Summary.png](PyCitySchools_pics/School_Summary.png)
      
-     - The percentage score were significantly lower due to change in the total student number.
+     - The average scores change were too small to consider.  However, the percentage score were significantly lower due to change in the total student number.
        - average Math score decreased slightly .06 from 83.41 to 83.35
        - average reading score increased slightly by .05 from 83.84 to 83.89
        - % Passing Math decreased significantly 26.36% from 93.27 to 66.91
@@ -173,7 +173,7 @@ Four changes in the updated school district analysis after reading and math scor
 
    - Avg math score was lowered by .1 
    - Avg reading score 81.9 remained the same
-   - % Passisng Math was lowered by.2% 
+   - % Passisng Math was lowered by .2% 
    - % Passing Readidng was lowered by .1% 
    - % Overall Passing was lowered by .3% 
 
